@@ -102,7 +102,7 @@ class CategoriesController extends Controller
 
         $this->construct();
         $request = Yii::$app->request;
-        die("Другая ветка");
+
         if($request->post('test')!=null){
             $mess = $request->post('test');
             $view = "/index/about";
