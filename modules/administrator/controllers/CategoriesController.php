@@ -95,7 +95,7 @@ class CategoriesController extends Controller
         return $this->render("/categories/list",['one'=>"administrator"]);
     }
 
-    function actionEdit($id=1){
+    function actionEdit($id=2){
         /** тут по умолчанию указываем 1, что бы избежать ошибки,
          * а так id берется из урла браузера к экшену
          */
