@@ -1,0 +1,18 @@
+<ul>
+    {{#list}}
+        <li class="list_category_item">
+            {{#webix_kids}}
+                <span parentID="{{id}}" class="open_sub">+</span>
+            {{/webix_kids}}
+            {{^webix_kids}}
+
+            {{/webix_kids}}
+            <a href="/administrator/categories/edit?id={{id}}">{{title}}</a>
+            <div class="list_category_item_info">Путь:{{path}}</div>
+            <div class="sub_cats"></div>
+
+        </li>
+    {{/list}}
+
+
+</ul>

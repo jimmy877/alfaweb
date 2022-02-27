@@ -1,0 +1,12 @@
+﻿<ul>
+    {{#each list}}
+        <li class="list_category_item">
+            <a href="/administrator/categories/edit?id={{id}}">{{title}}</a>
+            <div class="list_category_item_info">Путь:{{path}}</div>
+            <div class="sub_cats"></div>
+
+        </li>
+    {{/each}}
+
+
+</ul>

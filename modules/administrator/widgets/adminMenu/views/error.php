@@ -1,0 +1,1 @@
+<strong style="color: red">Error of menu</strong>
