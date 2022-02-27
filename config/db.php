@@ -7,5 +7,4 @@ return [
     'password' => 'secret',
     'charset' => 'utf8',
     'tablePrefix' =>'b5fcx_',
-    "ff"=>"",
 ];
