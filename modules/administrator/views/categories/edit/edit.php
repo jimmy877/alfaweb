@@ -99,12 +99,7 @@ $photogallery = json_decode($category->photogallery);
 
         <? include(Yii::getAlias('@app/modules/administrator/views/categories/edit/photogallery.php'));?>
 
-
-        <div class="tabs tab_fields">
-
-
-            there field
-        </div>
+        <? include(Yii::getAlias('@app/modules/administrator/views/categories/edit/fields.php'));?>
 
         <div class="tabs tab_access">
             there access

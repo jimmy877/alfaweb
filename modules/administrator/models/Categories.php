@@ -241,7 +241,6 @@ class Categories extends Model
         $query = Yii::$app->db->createCommand('SELECT * FROM {{%categories}} WHERE id = :Id AND
                                                 extension = "com_content" AND path != "uncategorised" ',['Id'=>$Id])->queryOne();
         return json_encode($query);
-
     }
 
 }

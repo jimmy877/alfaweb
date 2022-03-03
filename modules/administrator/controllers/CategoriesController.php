@@ -6,6 +6,7 @@
  */
 
 namespace app\modules\administrator\controllers;
+use app\modules\administrator\models\Fields;
 use Yii;
 use yii\web\Controller;
 use app\modules\user\User;
@@ -112,12 +113,13 @@ class CategoriesController extends Controller
         }else{
             $category = json_decode( Categories::categoryOne($id));
             $catTree = json_decode(Categories::categoryAllList());
+            $fieldsPrototypeCategory = Fields::getFieldGroup();
             #Берем функцию построения дерева из трейта
             $catTree = $this->CategoryBuildTree(1,$catTree,$this->Result);
             $this->dTitle='Редактирование категории';
             $this->layout='admin';
             $view = "/categories/edit/edit";
-            $value = ['category'=>$category,'catTree'=>$catTree,];
+            $value = ['category'=>$category,'catTree'=>$catTree,'fieldsPrototypeCategory'=>$fieldsPrototypeCategory['groups']];
             return $this->render($view,$value);
         }
 
