@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: localhost
--- Время создания: Май 15 2022 г., 08:42
+-- Время создания: Фев 27 2022 г., 07:27
 -- Версия сервера: 5.7.27-0ubuntu0.18.04.1
 -- Версия PHP: 7.1.33-44+ubuntu18.04.1+deb.sury.org+1
 
@@ -441,7 +441,7 @@ CREATE TABLE `b5fcx_users` (
 --
 
 INSERT INTO `b5fcx_users` (`id`, `name`, `username`, `email`, `password`, `block`, `sendEmail`, `registerDate`, `lastvisitDate`, `activation`, `params`, `lastResetTime`, `resetCount`, `otpKey`, `otep`, `requireReset`, `autorisation_id`) VALUES
-(878, 'Super User', 'jimmy877', 'molot877@mail.ru', '9d8e43fd711d16149039183363e98672', 0, 1, '2016-09-01 19:52:04', '2016-04-06 07:20:31', '1', '', '0000-00-00 00:00:00', 0, '', '', 0, 'c5b62b2131af162dd5101731e6f266b2'),
+(878, 'Super User', 'jimmy877', 'molot877@mail.ru', '9d8e43fd711d16149039183363e98672', 0, 1, '2016-09-01 19:52:04', '2016-04-06 07:20:31', '1', '', '0000-00-00 00:00:00', 0, '', '', 0, '714c22320bfd99579e8d73c4f955e4df'),
 (879, 'manager', 'manager', 'zaika@mail.ru', '$2y$10$ijd3FvvWXJ4BucOFIEUllezywQKpH3QOYrAdT3EIQtFsZjQiEDNES', 0, 0, '2016-04-04 21:57:53', '2016-04-06 07:20:28', '', '{\"admin_style\":\"\",\"admin_language\":\"\",\"language\":\"\",\"editor\":\"\",\"helpsite\":\"\",\"timezone\":\"\"}', '0000-00-00 00:00:00', 0, '', '', 0, ''),
 (880, '', 'jimmy878', 'molot878@mail.ru', 'fb3c0168812b592bf0463cabc20931e7', 0, 0, '0000-00-00 00:00:00', '0000-00-00 00:00:00', '', '', '0000-00-00 00:00:00', 0, '', '', 0, '');
 

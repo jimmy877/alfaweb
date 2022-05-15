@@ -1,4 +1,4 @@
-﻿<ul>
+<ul>
     {{#each list}}
         <li class="list_category_item">
             {{#IF "this.webix_kids==1"}}

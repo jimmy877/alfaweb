@@ -1,4 +1,4 @@
-﻿<ul>
+<ul>
     {{#each list}}
         <li class="list_category_item">
             <a href="/administrator/categories/edit?id={{id}}">{{title}}</a>
