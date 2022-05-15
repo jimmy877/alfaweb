@@ -20,6 +20,8 @@
                         </option>
                     <?php endforeach ?>
                 </select>
+                <a class="ac_button" href="/administrator/categories/edit?id=<?php echo $category->id?>&field=<?php echo $category->id?>">Выбрать</a>
+
             <?php else:?>
                 Вывод полей
             <?php endif;?>
