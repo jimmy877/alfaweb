@@ -28,6 +28,7 @@
       <path value="$PROJECT_DIR$/vendor/yiisoft/yii2-codeception" />
       <path value="$PROJECT_DIR$/vendor/yiisoft/yii2-composer" />
       <path value="$PROJECT_DIR$/vendor/yiisoft/yii2-debug" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="5.4.0">

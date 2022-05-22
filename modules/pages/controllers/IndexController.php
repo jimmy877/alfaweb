@@ -25,6 +25,7 @@ class IndexController extends Controller
         }
 
         $router = new pageRouter($url, $config=null);
+
         $routResult = $router->buildUrl($url);
         $config = $routResult;
        /* echo "<pre>";
