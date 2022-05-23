@@ -20,7 +20,6 @@ while ($row = $stmt->fetch())
 exit();*/
 //error_reporting(E_ALL & ~E_NOTICE); тестим git
 // comment out the following two lines when deployed to production
-exit();
 defined('YII_DEBUG') or define('YII_DEBUG', true);
 defined('YII_ENV') or define('YII_ENV', 'dev');
 
